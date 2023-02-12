@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+#div-app{
+  display: flex ;
+  flex-direction: column;
+  width:auto;
+  height:100%;
+  justify-content:space-evely;
+  padding:2%;
+  color :#e1891d;
+  background: #000;
+}
+input{
+ display:none
+}
+.div{
+  height:200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+  text-align: center;
+  background-color:#000000 ;
+  padding: 10px;
+  }
+#btn-load{
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+  background: #e1891d;
+
+}
+#btn-load:active {
+    opacity: .5;
+}
+p{
+  color:#e1891d
+}

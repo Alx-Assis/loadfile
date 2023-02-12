@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "labelOptimization",
+    "description": "Extensão para unir plp e declaração de conteúdo em uma só pagina em formato pdf para impressão ",
+    "author": "Alex Ferreira - FreeCode",
+    "browser_action": {
+   	 "default_title": "LabelOptimization",
+   	 "default_popup": "index.html",
+   	 "default_icon": "icon.png"
+    }
+}
